@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f2f0ed;
+}
+
+nav ul {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    position: fixed;
+    display: flex;
+    height: 100vh;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background-color: black;
+    z-index: 1;
+}
+
+nav li {
+    transition: transform 450ms;
+}
+
+nav li:hover {
+    cursor: pointer;
+    transform: scale(1.08);
+}
+
+.pos {
+    position: absolute;
+    height: 100vh;
+    margin-top: 1465px;
+}
+
+.f {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.f-sb {
+    justify-content: space-between;
+}
+
+.f-dir {
+    flex-direction: column;
+}
+
+.f-ac {
+    align-items: center;
+}
+
+.progress {
+    border: 1px solid rgb(27, 120, 220);
+    height: 12px;
+}
+
+#contents {
+    margin-left: 28%;
+    right: 10px;
+}
+
+#intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    font-size: 40px;
+    line-height: 90px;
+}
+
+name {
+    font-weight: bold;
+    font-size: 90px;
+    font-family: "Bad Script", cursive;
+    animation: none;
+}
+
+#abt {
+    border-radius: 10px;
+    position: relative;
+    background-color: #c2bcb455;
+    padding: 10px;
+    display: none;
+    opacity: 0;
+}
+
+#skills {
+    /* display: none; */
+    opacity: 0;
+}
+
+.skill-group {
+    width: 40%;
+}
+
+#projects {
+    display: none;
+    opacity: 0;
+    margin-top: 50px;
+}
+
+#footer {
+    padding: 10px;
+    width: 100%;
+    display: none;
+    opacity: 0;
+    background-color: black;
+    color: white;
+}
+
+#footer ul {
+    padding: 10px 30px 30px 30px;
+    list-style: none;
+    justify-content: space-around;
+    width: 100%;
+    font-size: 30px;
+}
+
+#getInTouch input {
+    padding: 10px;
+    margin: 5px;
+}
