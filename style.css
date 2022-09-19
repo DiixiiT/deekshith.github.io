@@ -24,8 +24,13 @@ nav ul {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+
     background-color: black;
     z-index: 1;
+}
+nav a {
+    text-decoration: none;
+    color: white;
 }
 
 nav li {
@@ -79,7 +84,7 @@ nav li:hover {
     line-height: 90px;
 }
 
-name {
+#name {
     font-weight: bold;
     font-size: 90px;
     font-family: "Bad Script", cursive;
@@ -130,4 +135,24 @@ name {
 #getInTouch input {
     padding: 10px;
     margin: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    nav {
+        display: none;
+    }
+    #contents {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #intro {
+        height: 95vh;
+        font-size: 25px;
+        line-height: 80px;
+    }
+
+    #name {
+        font-size: 70px;
+    }
 }

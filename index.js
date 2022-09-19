@@ -52,18 +52,6 @@ function printHello() {
     }
 }
 
-function clickContact() {
-    window.scrollTo(0, 1300);
-}
-
-function clickProject() {
-    window.scrollTo(0, 1190);
-}
-
-clickAbout = () => {
-    window.scrollTo(0, 650);
-};
-
 var aby = 0,
     sky = 0,
     pjy = 0;
